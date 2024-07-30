@@ -1,0 +1,84 @@
+.about-section {
+  padding: 60px 0;
+  background-color: #0000006d;
+  color: #fff;
+}
+.name{
+  color:pink;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+.profile-photo {
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.about-text .lead {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+
+.download-cv {
+  font-weight: bold;
+  color: rgb(144, 112, 135);
+  background-color: #af22303c;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  animation: fadeIn 1s ease-in-out 1s;
+  animation-fill-mode: both;
+}
+
+.download-cv:hover {
+  background-color: #2c6a696f;
+  color: rgb(169, 146, 166);
+}
+.about-text {
+  animation: fadeIn 1s ease-in-out 0.5s;
+  animation-fill-mode: both;
+}
+@media (max-width: 768px) {
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+

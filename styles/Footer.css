@@ -1,0 +1,23 @@
+.custom-footer {
+  background-color: #8f8888;
+  color: #fff;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+  
+  
